@@ -24,6 +24,7 @@ Run the following command to install the required dependencies:
 flutter pub get
 ```
 
+
 4. **Run the Project:**
 
 You have two options for running the project:
@@ -32,6 +33,9 @@ You have two options for running the project:
 
   Open the project in VS Code, navigate to the Debug tab, and select `dev_test_2degrees` under the available devices.
 
+  ![image](https://github.com/user-attachments/assets/41be3daf-8cfe-4f1a-a9d5-318e46a41c4c)
+
+
 - **Using Terminal:**
 
   Run the project using the following command:
@@ -39,6 +43,8 @@ You have two options for running the project:
   ```
   flutter run --hot -d web-server --web-port 8080
   ```
+
+  NOTE: make sure port 8080 is available or you can change it if you like.
 
 5. **Open in Browser:**
 

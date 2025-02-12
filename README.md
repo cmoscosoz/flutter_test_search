@@ -13,7 +13,7 @@ To get started, follow these steps:
    Clone this repo to your local machine using:
 
    ```
-   git clone <your-repository-url>
+   git clone git@github.com:cmoscosoz/flutter_test_search.git
    ```
 
 3. **Install Dependencies:**
@@ -43,5 +43,8 @@ You have two options for running the project:
 5. **Open in Browser:**
 
 After running the project, a browser tab will open automatically. To start debugging, open the Dart Debug Extension and click on **"Open DevTools"**.
+
+![image](https://github.com/user-attachments/assets/61ea8bfb-1c7c-44a0-a0f6-0ab1be52e605)
+
 
 Happy coding! 🚀

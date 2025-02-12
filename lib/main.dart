@@ -1,5 +1,5 @@
 import 'package:dev_test_2degrees/src/cubits/address_qualification/address_qualification_cubit.dart';
-import 'package:dev_test_2degrees/src/cubits/adress_search/address_search_cubit.dart';
+import 'package:dev_test_2degrees/src/cubits/address_search/address_search_cubit.dart';
 import 'package:dev_test_2degrees/src/di/service_locator.dart';
 import 'package:dev_test_2degrees/src/widgets/qualification_result.dart';
 import 'package:dev_test_2degrees/src/widgets/search_address.dart';

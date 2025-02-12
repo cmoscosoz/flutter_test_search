@@ -17,7 +17,6 @@ import '../core/network.dart' as _i335;
 import '../cubits/address_qualification/address_qualification_cubit.dart'
     as _i202;
 import '../cubits/address_search/address_search_cubit.dart' as _i735;
-import '../cubits/adress_search/address_search_cubit.dart' as _i298;
 import '../data/address_services.dart' as _i864;
 import '../data/qualifications_services.dart' as _i933;
 
@@ -41,8 +40,6 @@ extension GetItInjectableX on _i174.GetIt {
     gh.singleton<_i202.AddressQualificationCubit>(() =>
         _i202.AddressQualificationCubit(
             qualificationService: gh<_i933.QualificationsServices>()));
-    gh.singleton<_i298.AddressSearchCubit>(() =>
-        _i298.AddressSearchCubit(addressServices: gh<_i864.AddressServices>()));
     gh.singleton<_i735.AddressSearchCubit>(() =>
         _i735.AddressSearchCubit(addressServices: gh<_i864.AddressServices>()));
     return this;

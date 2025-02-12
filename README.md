@@ -1,56 +1,79 @@
-# dev_test_2degrees
+# Dev Test Project
 
-To get started, follow these steps:
+A Flutter web application for testing search functionality.
 
-1. **Install Dart Debug Extension:**
+## Prerequisites
 
-   First, download the Dart Debug Extension for Chrome from the following link:
+- Flutter 3.27.4 (stable channel)
+- Dart 3.6.2
+- Chrome browser for debugging
 
-   [Dart Debug Extension](https://chromewebstore.google.com/detail/dart-debug-extension/eljbmlghnomdjgdjmbdekegdkbabckhm)
+## Development Environment Setup
 
-2. **Clone the Repository:**
+### 1. Install Flutter
 
-   Clone this repo to your local machine using:
+Follow the official Flutter installation guide at [https://docs.flutter.dev/get-started/install](https://docs.flutter.dev/get-started/install)
 
-   ```
+Verify your installation meets these requirements:
+```
+Flutter 3.27.4 • channel stable
+Framework • revision d8a9f9a52e (2025-01-31)
+Engine • revision 82bd5b7209
+Tools • Dart 3.6.2 • DevTools 2.40.3
+```
+
+### 2. Install Chrome Debug Extension
+
+Install the Dart Debug Extension for Chrome from the [Chrome Web Store](https://chromewebstore.google.com/detail/dart-debug-extension/eljbmlghnomdjgdjmbdekegdkbabckhm)
+
+![image](https://github.com/user-attachments/assets/6139f760-d61d-487d-924e-bc806a7a2db3)
+
+
+### 3. Project Setup
+
+1. Clone the repository:
+   ```bash
    git clone git@github.com:cmoscosoz/flutter_test_search.git
    ```
 
-3. **Install Dependencies:**
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
 
-Run the following command to install the required dependencies:
+## Running the Project
 
-```
-flutter pub get
-```
+You can run the project using either VS Code or the terminal.
 
+### Option 1: Using VS Code
 
-4. **Run the Project:**
+1. Open the project in VS Code
+2. Navigate to the Debug tab
+3. Select `dev_test_2degrees` from the available devices
+4. Click the "Start Debugging" button or press F5
 
-You have two options for running the project:
+![image](https://github.com/user-attachments/assets/41be3daf-8cfe-4f1a-a9d5-318e46a41c4c)
 
-- **Using VS Code:**
+### Option 2: Using Terminal
 
-  Open the project in VS Code, navigate to the Debug tab, and select `dev_test_2degrees` under the available devices.
+1. Run the following command:
+   ```bash
+   flutter run --hot -d web-server --web-port 8080
+   ```
+   Note: If port 8080 is unavailable, you can specify a different port number.
 
-  ![image](https://github.com/user-attachments/assets/41be3daf-8cfe-4f1a-a9d5-318e46a41c4c)
+2. The application will automatically open in your default browser
 
+## Debugging
 
-- **Using Terminal:**
-
-  Run the project using the following command:
-
-  ```
-  flutter run --hot -d web-server --web-port 8080
-  ```
-
-  NOTE: make sure port 8080 is available or you can change it if you like.
-
-5. **Open in Browser:**
-
-After running the project, a browser tab will open automatically. To start debugging, open the Dart Debug Extension and click on **"Open DevTools"**.
+1. Once the application is running in Chrome, click the Dart Debug Extension icon in your browser
+2. Select "Open DevTools" to begin debugging
+3. Use the Chrome Developer Tools with the Dart debugging features enabled
 
 ![image](https://github.com/user-attachments/assets/61ea8bfb-1c7c-44a0-a0f6-0ab1be52e605)
 
+## Support
+
+If you encounter any issues or have questions, please open an issue in the repository. 👀
 
 Happy coding! 🚀
